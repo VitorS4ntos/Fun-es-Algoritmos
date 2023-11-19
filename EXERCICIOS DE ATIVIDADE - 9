@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+void c(int ra){
+  double volume = (4.0/3.0)*3.14*pow(ra,3);
+  cout << volume;
+}
+int main(){
+  int ra;
+  cin >> ra;
+  c(ra);
+  return 0;
+}
