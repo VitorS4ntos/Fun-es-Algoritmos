@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+void P(int hora, int minut, int seg){
+	int t;
+	hora = hora*3600;
+	minut = minut*60;
+	temp = hora+minut+seg;
+	cout<<temp;
+}
+int main(){
+	int hora, minut, seg;
+	cin>>hora>>minut>>seg;
+	P(hora, minut, seg);
+	return 0;
+}
